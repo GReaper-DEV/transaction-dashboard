@@ -1,0 +1,932 @@
+[
+  {
+    "id": "txn_1018",
+    "merchant": "FreshMart Supermarket",
+    "description": "Groceries",
+    "category": "Groceries",
+    "date": "2026-10-09T08:14:00Z",
+    "amount": {
+      "minor": 6843,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "pending",
+    "reference": "POS 449120",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_1017",
+    "merchant": "Amazon.com",
+    "description": "Order #114-3958201-7731954 — USB-C dock, 2 × braided charging cables, aluminium laptop stand and a replacement keyboard",
+    "category": "Shopping",
+    "date": "2026-10-08T19:42:00Z",
+    "amount": {
+      "minor": 12999,
+      "currency": "USD"
+    },
+    "type": "debit",
+    "status": "pending",
+    "reference": "AMZ-114-3958201",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_1016",
+    "merchant": "Uber Eats",
+    "description": "Food delivery",
+    "category": "Eating out",
+    "date": "2026-10-08T12:05:00Z",
+    "amount": {
+      "minor": 2240,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "UE-88231",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_1015",
+    "merchant": "Steam",
+    "description": "Game purchase",
+    "category": "Entertainment",
+    "date": "2026-10-07T21:18:00Z",
+    "amount": {
+      "minor": 5999,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "declined",
+    "reference": "STM-5521093",
+    "paymentMethod": "Visa Debit •••• 1234",
+    "declineReason": "Insufficient funds at the time of the payment."
+  },
+  {
+    "id": "txn_1014",
+    "merchant": "Acme Corp",
+    "description": "Salary — October 2026",
+    "category": "Income",
+    "date": "2026-10-07T06:00:00Z",
+    "amount": {
+      "minor": 325000,
+      "currency": "EUR"
+    },
+    "type": "credit",
+    "status": "completed",
+    "reference": "SAL-2026-10",
+    "paymentMethod": "SEPA transfer"
+  },
+  {
+    "id": "txn_1013",
+    "merchant": "City Power & Light",
+    "description": "Electricity bill — account 1002 3348 9921, period 01/08/2026 – 30/09/2026",
+    "category": "Bills",
+    "date": "2026-10-06T10:30:00Z",
+    "amount": {
+      "minor": 14862,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "CPL-10023348921",
+    "paymentMethod": "Direct debit"
+  },
+  {
+    "id": "txn_1012",
+    "merchant": "Booking.com",
+    "description": "Hotel deposit, London",
+    "category": "Travel",
+    "date": "2026-10-05T16:47:00Z",
+    "amount": {
+      "minor": 18000,
+      "currency": "GBP"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "BKG-4419-2201",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_1011",
+    "merchant": "John Smith",
+    "description": "Dinner split",
+    "category": "Transfers",
+    "date": "2026-10-04T22:10:00Z",
+    "amount": {
+      "minor": 3550,
+      "currency": "EUR"
+    },
+    "type": "credit",
+    "status": "completed",
+    "paymentMethod": "Instant transfer"
+  },
+  {
+    "id": "txn_1010",
+    "merchant": "Netflix",
+    "description": "Monthly subscription",
+    "category": "Entertainment",
+    "date": "2026-10-03T03:00:00Z",
+    "amount": {
+      "minor": 1399,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "NFLX-2026-10",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_1009",
+    "merchant": "Tokyo Electronics Store",
+    "description": "Phone accessories",
+    "category": "Shopping",
+    "date": "2026-10-02T05:21:00Z",
+    "amount": {
+      "minor": 8990,
+      "currency": "JPY"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "TES-77120",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_1008",
+    "merchant": "Amazon.com",
+    "description": "Refund — returned item",
+    "category": "Shopping",
+    "date": "2026-10-01T14:03:00Z",
+    "amount": {
+      "minor": 2499,
+      "currency": "USD"
+    },
+    "type": "credit",
+    "status": "completed",
+    "reference": "AMZ-REF-77310",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_1007",
+    "merchant": "Sunrise Property Management",
+    "description": "Rent October",
+    "category": "Housing",
+    "date": "2026-09-30T08:00:00Z",
+    "amount": {
+      "minor": 95000,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "paymentMethod": "Standing order"
+  },
+  {
+    "id": "txn_1006",
+    "merchant": "Spotify",
+    "description": "Premium Family",
+    "category": "Entertainment",
+    "date": "2026-09-27T03:00:00Z",
+    "amount": {
+      "minor": 1799,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "declined",
+    "reference": "SPOT-2026-09",
+    "paymentMethod": "Visa Debit •••• 1234",
+    "declineReason": "Card expired."
+  },
+  {
+    "id": "txn_1005",
+    "merchant": "The Very Long Named Artisan Bakery & Specialty Coffee Roasters of the Old Town Market Square",
+    "description": "Breakfast",
+    "category": "Eating out",
+    "date": "2026-09-26T08:40:00Z",
+    "amount": {
+      "minor": 1275,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "POS 330291",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_1004",
+    "merchant": "Bank interest",
+    "description": "Monthly interest",
+    "category": "Income",
+    "date": "2026-09-25T00:00:00Z",
+    "amount": {
+      "minor": 3,
+      "currency": "EUR"
+    },
+    "type": "credit",
+    "status": "completed"
+  },
+  {
+    "id": "txn_1003",
+    "merchant": "IKEA",
+    "description": "Furniture",
+    "category": "Home",
+    "date": "2026-09-22T13:15:00Z",
+    "amount": {
+      "minor": 34950,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "IKEA-55120",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_1002",
+    "merchant": "Lidl",
+    "description": "Groceries",
+    "category": "Groceries",
+    "date": "2026-09-15T18:02:00Z",
+    "amount": {
+      "minor": 4317,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "POS 118230",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_1001",
+    "merchant": "Tax Office",
+    "description": "Income tax refund 2025",
+    "category": "Income",
+    "date": "2026-09-12T09:30:00Z",
+    "amount": {
+      "minor": 41288,
+      "currency": "EUR"
+    },
+    "type": "credit",
+    "status": "completed",
+    "reference": "TAX-REF-2025-118823",
+    "paymentMethod": "SEPA transfer"
+  },
+  {
+    "id": "txn_1000",
+    "merchant": "Zara",
+    "description": "Clothing",
+    "category": "Shopping",
+    "date": "2026-09-10T05:51:00Z",
+    "amount": {
+      "minor": 8331,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-150631",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_999",
+    "merchant": "Amazon.com",
+    "description": "Online order",
+    "category": "Shopping",
+    "date": "2026-09-09T06:59:00Z",
+    "amount": {
+      "minor": 2271,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-483452",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_sal_9",
+    "merchant": "Acme Corp",
+    "description": "Salary — September 2026",
+    "category": "Income",
+    "date": "2026-09-07T06:00:00Z",
+    "amount": {
+      "minor": 325000,
+      "currency": "EUR"
+    },
+    "type": "credit",
+    "status": "completed",
+    "reference": "SAL-2026-09",
+    "paymentMethod": "SEPA transfer"
+  },
+  {
+    "id": "txn_998",
+    "merchant": "Amazon.com",
+    "description": "Online order",
+    "category": "Shopping",
+    "date": "2026-09-06T23:56:00Z",
+    "amount": {
+      "minor": 3258,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-139317",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_997",
+    "merchant": "Zara",
+    "description": "Clothing",
+    "category": "Shopping",
+    "date": "2026-09-06T00:29:00Z",
+    "amount": {
+      "minor": 3571,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-352353",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_996",
+    "merchant": "Zara",
+    "description": "Clothing",
+    "category": "Shopping",
+    "date": "2026-09-05T00:54:00Z",
+    "amount": {
+      "minor": 3483,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-967017",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_995",
+    "merchant": "Uber Eats",
+    "description": "Food delivery",
+    "category": "Eating out",
+    "date": "2026-09-02T18:47:00Z",
+    "amount": {
+      "minor": 4083,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-757911",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_994",
+    "merchant": "Cinema City",
+    "description": "Movie tickets",
+    "category": "Entertainment",
+    "date": "2026-08-31T11:44:00Z",
+    "amount": {
+      "minor": 2799,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-515949",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_993",
+    "merchant": "FreshMart Supermarket",
+    "description": "Groceries",
+    "category": "Groceries",
+    "date": "2026-08-30T14:30:00Z",
+    "amount": {
+      "minor": 11620,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-239643",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_992",
+    "merchant": "Uber",
+    "description": "Ride",
+    "category": "Transport",
+    "date": "2026-08-29T02:04:00Z",
+    "amount": {
+      "minor": 2914,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-223514",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_991",
+    "merchant": "Amazon.com",
+    "description": "Online order",
+    "category": "Shopping",
+    "date": "2026-08-26T19:45:00Z",
+    "amount": {
+      "minor": 8185,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "declined",
+    "reference": "REF-815131",
+    "paymentMethod": "Visa Debit •••• 1234",
+    "declineReason": "Payment was declined by the card issuer."
+  },
+  {
+    "id": "txn_990",
+    "merchant": "Cinema City",
+    "description": "Movie tickets",
+    "category": "Entertainment",
+    "date": "2026-08-25T14:39:00Z",
+    "amount": {
+      "minor": 2769,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-769949",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_989",
+    "merchant": "Lidl",
+    "description": "Groceries",
+    "category": "Groceries",
+    "date": "2026-08-24T08:16:00Z",
+    "amount": {
+      "minor": 5987,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-846702",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_988",
+    "merchant": "FreshMart Supermarket",
+    "description": "Groceries",
+    "category": "Groceries",
+    "date": "2026-08-23T09:40:00Z",
+    "amount": {
+      "minor": 5874,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-620528",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_987",
+    "merchant": "Starbucks",
+    "description": "Coffee",
+    "category": "Eating out",
+    "date": "2026-08-21T05:13:00Z",
+    "amount": {
+      "minor": 826,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-714006",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_986",
+    "merchant": "Shell",
+    "description": "Fuel",
+    "category": "Transport",
+    "date": "2026-08-19T05:50:00Z",
+    "amount": {
+      "minor": 5017,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-932967",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_985",
+    "merchant": "Uber Eats",
+    "description": "Food delivery",
+    "category": "Eating out",
+    "date": "2026-08-18T00:06:00Z",
+    "amount": {
+      "minor": 1835,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-702326",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_984",
+    "merchant": "City Gym",
+    "description": "Monthly membership",
+    "category": "Health",
+    "date": "2026-08-16T10:33:00Z",
+    "amount": {
+      "minor": 4500,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-460160",
+    "paymentMethod": "Direct debit"
+  },
+  {
+    "id": "txn_983",
+    "merchant": "Cinema City",
+    "description": "Movie tickets",
+    "category": "Entertainment",
+    "date": "2026-08-14T12:15:00Z",
+    "amount": {
+      "minor": 1749,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-223800",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_982",
+    "merchant": "Uber",
+    "description": "Ride",
+    "category": "Transport",
+    "date": "2026-08-12T09:49:00Z",
+    "amount": {
+      "minor": 2101,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-259367",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_981",
+    "merchant": "FreshMart Supermarket",
+    "description": "Groceries",
+    "category": "Groceries",
+    "date": "2026-08-10T08:23:00Z",
+    "amount": {
+      "minor": 3771,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-901710",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_980",
+    "merchant": "Starbucks",
+    "description": "Coffee",
+    "category": "Eating out",
+    "date": "2026-08-08T02:47:00Z",
+    "amount": {
+      "minor": 698,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-829070",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_sal_8",
+    "merchant": "Acme Corp",
+    "description": "Salary — August 2026",
+    "category": "Income",
+    "date": "2026-08-07T06:00:00Z",
+    "amount": {
+      "minor": 325000,
+      "currency": "EUR"
+    },
+    "type": "credit",
+    "status": "completed",
+    "reference": "SAL-2026-08",
+    "paymentMethod": "SEPA transfer"
+  },
+  {
+    "id": "txn_979",
+    "merchant": "City Gym",
+    "description": "Monthly membership",
+    "category": "Health",
+    "date": "2026-08-06T10:09:00Z",
+    "amount": {
+      "minor": 4500,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-708064",
+    "paymentMethod": "Direct debit"
+  },
+  {
+    "id": "txn_978",
+    "merchant": "Lidl",
+    "description": "Groceries",
+    "category": "Groceries",
+    "date": "2026-08-04T11:05:00Z",
+    "amount": {
+      "minor": 3711,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-597128",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_977",
+    "merchant": "FreshMart Supermarket",
+    "description": "Groceries",
+    "category": "Groceries",
+    "date": "2026-08-01T23:01:00Z",
+    "amount": {
+      "minor": 7572,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-778563",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_976",
+    "merchant": "City Gym",
+    "description": "Monthly membership",
+    "category": "Health",
+    "date": "2026-07-30T16:18:00Z",
+    "amount": {
+      "minor": 4500,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-398420",
+    "paymentMethod": "Direct debit"
+  },
+  {
+    "id": "txn_975",
+    "merchant": "Pharmacy Plus",
+    "description": "Pharmacy",
+    "category": "Health",
+    "date": "2026-07-28T21:22:00Z",
+    "amount": {
+      "minor": 2221,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-123658",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_974",
+    "merchant": "Uber",
+    "description": "Ride",
+    "category": "Transport",
+    "date": "2026-07-26T22:00:00Z",
+    "amount": {
+      "minor": 3202,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-222783",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_973",
+    "merchant": "Uber Eats",
+    "description": "Food delivery",
+    "category": "Eating out",
+    "date": "2026-07-24T20:57:00Z",
+    "amount": {
+      "minor": 2677,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "declined",
+    "reference": "REF-235623",
+    "paymentMethod": "Apple Pay •••• 1234",
+    "declineReason": "Payment was declined by the card issuer."
+  },
+  {
+    "id": "txn_972",
+    "merchant": "Zara",
+    "description": "Clothing",
+    "category": "Shopping",
+    "date": "2026-07-23T11:32:00Z",
+    "amount": {
+      "minor": 7066,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-184495",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_971",
+    "merchant": "Zara",
+    "description": "Clothing",
+    "category": "Shopping",
+    "date": "2026-07-22T07:04:00Z",
+    "amount": {
+      "minor": 7500,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-391335",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_970",
+    "merchant": "Zara",
+    "description": "Clothing",
+    "category": "Shopping",
+    "date": "2026-07-21T04:12:00Z",
+    "amount": {
+      "minor": 7506,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-391945",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_969",
+    "merchant": "Pharmacy Plus",
+    "description": "Pharmacy",
+    "category": "Health",
+    "date": "2026-07-19T07:50:00Z",
+    "amount": {
+      "minor": 2358,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-341960",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_968",
+    "merchant": "Uber",
+    "description": "Ride",
+    "category": "Transport",
+    "date": "2026-07-18T04:45:00Z",
+    "amount": {
+      "minor": 1319,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-343224",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_967",
+    "merchant": "FreshMart Supermarket",
+    "description": "Groceries",
+    "category": "Groceries",
+    "date": "2026-07-15T16:31:00Z",
+    "amount": {
+      "minor": 10445,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-971464",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_966",
+    "merchant": "Shell",
+    "description": "Fuel",
+    "category": "Transport",
+    "date": "2026-07-13T09:20:00Z",
+    "amount": {
+      "minor": 5154,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-104292",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_965",
+    "merchant": "Amazon.com",
+    "description": "Online order",
+    "category": "Shopping",
+    "date": "2026-07-12T05:54:00Z",
+    "amount": {
+      "minor": 4524,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-739434",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_964",
+    "merchant": "Uber",
+    "description": "Ride",
+    "category": "Transport",
+    "date": "2026-07-09T23:34:00Z",
+    "amount": {
+      "minor": 2811,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-747592",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_963",
+    "merchant": "John Smith",
+    "description": "Shared expenses",
+    "category": "Transfers",
+    "date": "2026-07-07T11:51:00Z",
+    "amount": {
+      "minor": 1442,
+      "currency": "EUR"
+    },
+    "type": "credit",
+    "status": "completed",
+    "reference": "REF-578825",
+    "paymentMethod": "Instant transfer"
+  },
+  {
+    "id": "txn_962",
+    "merchant": "Zara",
+    "description": "Clothing",
+    "category": "Shopping",
+    "date": "2026-07-05T06:26:00Z",
+    "amount": {
+      "minor": 6267,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-513264",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_961",
+    "merchant": "Pharmacy Plus",
+    "description": "Pharmacy",
+    "category": "Health",
+    "date": "2026-07-04T05:56:00Z",
+    "amount": {
+      "minor": 2440,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-165271",
+    "paymentMethod": "Visa Debit •••• 1234"
+  },
+  {
+    "id": "txn_960",
+    "merchant": "Uber Eats",
+    "description": "Food delivery",
+    "category": "Eating out",
+    "date": "2026-07-02T23:52:00Z",
+    "amount": {
+      "minor": 3304,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-270187",
+    "paymentMethod": "Apple Pay •••• 1234"
+  },
+  {
+    "id": "txn_959",
+    "merchant": "Cinema City",
+    "description": "Movie tickets",
+    "category": "Entertainment",
+    "date": "2026-07-01T22:31:00Z",
+    "amount": {
+      "minor": 1707,
+      "currency": "EUR"
+    },
+    "type": "debit",
+    "status": "completed",
+    "reference": "REF-207352",
+    "paymentMethod": "Apple Pay •••• 1234"
+  }
+]
